@@ -160,7 +160,7 @@
                     }
                     response = JSON.parse(response);
                     debugShow(debugResponseContainer, response);
-                    return response.api_token;
+                    return response.data.api_token;
                 })
                 .catch(console.error);
         };
